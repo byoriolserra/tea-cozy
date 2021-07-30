@@ -107,3 +107,49 @@ main {
 #featured figcaption {
     margin-top: 10px;
 }
+
+
+/* LOCATIONS */
+
+#locations {
+    width: 1200px;
+    height: 500px;
+    margin: 85px auto 0;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /*I STILL HAVE TO ALIGN THE CONTENT TO THE CENTER OF THE CONTAINER*/
+}
+
+#locations-title {
+    margin: 80px 0 15px;
+}
+
+#locations-info {
+    display: flex;
+    justify-content: center;
+}
+
+.locations-box {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.contentbox {
+    margin: 0 auto;
+}
+
+#box1 {
+    margin-right: 40px;
+}
+
+#box3 {
+    margin-left: 40px;
+}
