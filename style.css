@@ -25,6 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    border-bottom: 1px solid white;
 }
 
 header img {
@@ -72,4 +73,37 @@ main {
 
 #mission h2 {
     margin-bottom: 20px;
+}
+
+
+/* FEATURED */
+
+#featured {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#featured-title {
+    margin: 70px 0 10px;
+}
+
+#featured-title h2 {
+    margin-bottom: 20px;
+}
+
+#featured-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#featured img {
+    width: 300px;
+    height: 200px;
+    margin: 30px 10px 0px;
+}
+
+#featured figcaption {
+    margin-top: 10px;
 }
