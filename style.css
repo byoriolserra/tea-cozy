@@ -9,5 +9,47 @@
 
 body {
     text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background: black;
+    opacity: 0.9;
+
 }
 
+/*HEADER */
+header {
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+header img {
+    margin-left: 10px;
+    height: 50px;
+    width: auto;
+}
+
+header li {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+main {
+    margin-top: 70px;
+
+}
